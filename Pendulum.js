@@ -11,7 +11,7 @@ class Pendulum {
 
 		this.ball = Bodies.circle(startX, startY, Pendulum.ballRadius, {
             isStatic: false,
-            restitution: 1.27,
+            restitution: 1,
             friction: 0,
             density: 10,
         })
