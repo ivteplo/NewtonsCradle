@@ -26,7 +26,7 @@ class NewtonsCradle {
 
 	draw() {
 		noStroke()
-		fill("#ccc")
+		fill("#444")
 		rect(this.roof.position.x, this.roof.position.y, this.roofWidth, this.roofHeight)
 
 		this.pendulums.forEach(pendulum => {

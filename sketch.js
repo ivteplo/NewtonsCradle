@@ -20,17 +20,12 @@ function setup() {
 
 function draw() {
 	resizeCanvas(windowWidth, windowHeight)
-	background(230)
+	background(0)
 
 	Engine.update(engine)
 
 	cradle.update()
 	cradle.draw()
-
-	fill("black")
-	textAlign(LEFT)
-	textSize(15)
-	text("Автор: Задворнов Іван", 5, 20)
 }
 
 function mousePressed() {

@@ -35,7 +35,7 @@ class Pendulum {
 	}
 
 	draw() {
-		stroke(0x99)
+		stroke("#444")
 		strokeWeight(3)
 
 		const { x: ballX, y: ballY } = this.ball.position
@@ -45,7 +45,7 @@ class Pendulum {
 		line(originX, originY, ballX, ballY)
 
 		noStroke()
-		fill("cornflowerblue")
+		fill("rgb(56, 68, 240)")
 		ellipse(ballX, ballY, Pendulum.ballRadius * 2, Pendulum.ballRadius * 2)
 	}
 
